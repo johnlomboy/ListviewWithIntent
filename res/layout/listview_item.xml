@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvRankLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="@string/rank"/>
+    
+    <TextView
+        android:id="@+id/tvRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_toRightOf="@+id/tvRankLabel"/>
+    
+    <TextView
+        android:id="@+id/tvCountryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/tvRankLabel"
+        android:text="@string/country"/>
+    
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_toRightOf="@+id/tvCountryLabel"
+        android:layout_below="@+id/tvRank"/>
+    
+    <TextView
+        android:id="@+id/tvPopulationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/tvCountryLabel"
+        android:text="@string/population"/>
+    
+    <TextView
+        android:id="@+id/tvPopulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_toRightOf="@+id/tvPopulationLabel"
+        android:layout_below="@+id/tvCountry"/>
+
+</RelativeLayout>
